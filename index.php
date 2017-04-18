@@ -104,7 +104,7 @@ function validate()
 						</select></br>
 					</br>
     <a>Enter Your Email</a></br>
-    <input id="email" type="text"  name="email" placeholder="Email">
+    <input id="email" type="text"  name="email" value="Email">
 </br>
 </br>
 <input type="submit" class="btn btn-default" name="Search" value="Submit">
@@ -118,12 +118,73 @@ function validate()
 
 	</div>
 <div class="div4">
+<h2 style="color:#d9534f;">Why should I donate blood?</h2>
+	<p class="ht">It isn't every day you can do something to save someone's life - but that's exactly what you do every time you donate blood. Blood is a priceless gift - a lifesaver.
+
+Even the best trained medical personnel, using the most advanced equipment can become helpless in the event a patient needs blood.
+
+The gift of blood can only come from another human being ...there are no substitutes.
+
+Blood bags hanging
+
+Blood is indeed something special. It can't be manufactured and it can't be replaced by animal blood. Yet statistics show that less than 4% of all possible donors in New Zealand actually roll their sleeves up and give each year.
+
+Be one of those who make a real difference and donate blood every 3 months.
+
+Giving blood doesn't just benefit recipients. Regardless of who you are, donating blood offers many benefits for donors.
+
+It lets you:
+
+    Help save the life of up to 3 people with a single donation of blood
+    Make a difference in your community by helping others
+    Develop a sense of commitment to and connection with your fellow Kiwis
+    Be assured that adequate supplies of blood are available for you, as well as your family and others
+    Join a very special group of volunteers.
+
+</p>
+</br>
+<img src="image/5.jpg" class="img3">
+<p class="ht">It isn't every day you can do something to save someone's life - but that's exactly what you do every time you donate blood. Blood is a priceless gift - a lifesaver.
+
+Even the best trained medical personnel, using the most advanced equipment can become helpless in the event a patient needs blood.
+
+The gift of blood can only come from another human being ...there are no substitutes.
+
+Blood bags hanging
+
+Blood is indeed something special. It can't be manufactured and it can't be replaced by animal blood. Yet statistics show that less than 4% of all possible donors in New Zealand actually roll their sleeves up and give each year.
+
+Be one of those who make a real difference and donate blood every 3 months.
+
+Giving blood doesn't just benefit recipients. Regardless of who you are, donating blood offers many benefits for donors.
+
+It lets you:
+
+    Help save the life of up to 3 people with a single donation of blood
+    Make a difference in your community by helping others
+    Develop a sense of commitment to and connection with your fellow Kiwis
+    Be assured that adequate supplies of blood are available for you, as well as your family and others
+    Join a very special group of volunteers.
+
+</p>
 
 </div>
-<div class="div3">
-	<h2 style="color:#d9534f;">NOTICE</h2>
-	<p></p>
-</div>
 
+<footer>
+	<ul class="">
+	 <li>Home  |</li>
+     <li>Donate  |</li>
+     <li>Privacy policy  |<li>
+     <li>About Us  |</li>
+     <ul>	
+
+
+
+
+	</ul>
+
+</footer>
+</br>
+</br>
 </html>
 </div>

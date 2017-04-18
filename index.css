@@ -65,6 +65,24 @@ input[type=text] {
 
 
     text-align: center;
-    color: green;
+    color: grey;
     font-family: Helvetica;
+    padding: 10px;
+}
+.img3{
+    height: 300px;
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px
+    padding:10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #000033;
+    width: 100%;
+    min-height: 150px;
+    display: inline;
+    color: red;
 }
