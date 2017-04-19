@@ -113,7 +113,7 @@ function validate()
 </div>
 <div class="div3">
 
-<img src="image/maxresdefault.jpg" class="img1">
+<img src="image/6.jpg" class="img1">
 
 
 	</div>
@@ -170,21 +170,24 @@ It lets you:
 
 </div>
 
-<footer>
-	<ul class="">
-	 <li>Home  |</li>
-     <li>Donate  |</li>
-     <li>Privacy policy  |<li>
-     <li>About Us  |</li>
-     <ul>	
+</div>
+<footer class="f1"> 
+<ul>
+<li>Home  |</li>
+<li>About Us  |</li>
+<li>Privacy  |</li>	
+<li>Contact Us</li>
+
+</ul>
+</br>
+<p>This site is only created as demo for a class project. 
+	you don't have anykind of permission to copy the content from this site</p>
+	<p>Copyrights &copy karan kidar sharma 2017</p>
 
 
 
 
-	</ul>
+
 
 </footer>
-</br>
-</br>
 </html>
-</div>
