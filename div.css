@@ -1,13 +1,13 @@
 .div1 {
-	width:90%;
-	border:6px solid white;
-	background-color:white;
+	width:100%;
+	
+	background-color:grey;
 	text-align: center;
 	float: center;
 	margin: auto;
 	border-radius: 5px;
-	height: 220%;
     padding-bottom: 10px;
+    overflow: auto;
 
 
 }
@@ -16,10 +16,10 @@
     width:33%;
     margin: right;
     float: left;
-    background-color:#d9534f;
+    background-color:#666666;
     color: white;
     border-radius: 5px;
-    border:3px solid white;
+    border:3px solid grey;
     height: 400px;
 }
 
@@ -30,7 +30,7 @@
     background-color:white;
     color: white;
     border-radius: 5px;
-    border:1px solid #f2f2f2;
+    
     height: 400px;
 }
 .div4{
@@ -38,7 +38,7 @@
     margin: right;
     float: left;
     background-color:white;
-    color: white;
+    color: black;
     border-radius: 5px;
     border:2px solid #d6d6d6;
     height: 650px;
@@ -46,9 +46,45 @@
 
 
 }
-.div{
+.div6{
   width: 100%;
   position: fixed;
   background-color: red;
 
 }
+.div7{
+  width: 40%;
+  overflow: auto;
+  background-color:#cc0000;
+  min-height: 500px; 
+  color: white;
+  padding-left: 1cm;
+  text-align: left;
+  border: 5px solid grey;
+  border-radius: 5px;
+ float: left;
+ 
+  
+}
+.div8{
+    width:60%;
+    color: black;
+    min-height: 500px;
+    background-color: white;
+    float: left;
+    border: 5px solid grey;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .div9{
+    width:60%;
+    color: black;
+    min-height: 632px;
+    background-color: white;
+    float: left;
+    border: 5px solid grey;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }

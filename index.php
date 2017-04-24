@@ -43,12 +43,12 @@ function validate()
 <div class="btn-group btn-group-justified">
 <nav> 
 
-<div class="btn-group btn-group-justified">
-	<a href="index.php" class="btn btn-default">HOME</a>
-  <a href="register.php" class="btn btn-danger">REGISTER</a>
-  <a href="refer.php" class="btn btn-danger">REFER A FRIEND</a>
-  <a href="profile.php" class="btn btn-danger">EDIT YOUR PROFILE</a>
-  <a href="contact.php" class="btn btn-danger">CONTACT US</a>
+<div class="btn-group btn-group-justified hover">
+	<a href="index.php" class="btn ">HOME</a>
+  <a href="register.php" class="btn ">REGISTER</a>
+  <a href="refer.php" class="btn ">REFER A FRIEND</a>
+  <a href="profile.php" class="btn ">EDIT YOUR PROFILE</a>
+  <a href="contact.php" class="btn ">CONTACT US</a>
 
 </nav>
 </div>
@@ -107,7 +107,7 @@ function validate()
     <input id="email" type="text"  name="email" value="Email">
 </br>
 </br>
-<input type="submit" class="btn btn-default" name="Search" value="Submit">
+<input type="submit" class="btn btn-default" name="submit" value="Submit">
 </br>
 </br>
 </div>
@@ -118,7 +118,7 @@ function validate()
 
 	</div>
 <div class="div4">
-<h2 style="color:#d9534f;">Why should I donate blood?</h2>
+<h2 style="color:red;">Why should I donate blood?</h2>
 	<p class="ht">It isn't every day you can do something to save someone's life - but that's exactly what you do every time you donate blood. Blood is a priceless gift - a lifesaver.
 
 Even the best trained medical personnel, using the most advanced equipment can become helpless in the event a patient needs blood.
@@ -169,14 +169,13 @@ It lets you:
 </p>
 
 </div>
-
 </div>
 <footer class="f1"> 
 <ul>
-<li>Home  |</li>
-<li>About Us  |</li>
-<li>Privacy  |</li>	
-<li>Contact Us</li>
+<li><a href="index.php">Home  |</a></li>
+<li><a href="about.php">About Us  |</a></li>
+<li><a href="privacy.php">Privacy  |</a></li>	
+<li><a href="contact.php">Contact Us</a></li>
 
 </ul>
 </br>
@@ -184,10 +183,6 @@ It lets you:
 	you don't have anykind of permission to copy the content from this site</p>
 	<p>Copyrights &copy karan kidar sharma 2017</p>
 
-
-
-
-
-
 </footer>
+
 </html>
