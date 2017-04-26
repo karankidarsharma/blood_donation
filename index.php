@@ -1,4 +1,5 @@
 <div class="div1">
+
 <html>
 <title>blood</title>
 <meta charset="utf-8">
@@ -22,7 +23,7 @@ function validate()
            return false;
            
        }
-      if(documents.getElementById("select2").value=="Choose a group") 
+      if(document.getElementById("select2").value=="Choose a group") 
       {
       
              alert("please select a blood group");
@@ -53,10 +54,11 @@ function validate()
 </nav>
 </div>
 </br>
+
 <div class="div2">
 
 <h2>Find A Blood Doner</h2>
-<form method="post" action="donar.php" onsubmit="javascript:return validate ();">
+<form method="post" action="index1.php" onsubmit="javascript:return validate ();">
 	<a>Choose A City</a></br>
 	<select name="Select1" class="select" id="select1">
 		                    <option value="choose a City">Choose a city</option>
@@ -90,26 +92,6 @@ function validate()
 
 </form>
 
-</div> 
-<div class="div2"> <h2>Book Appointment</h2>
-	<a>Choose A City</a></br>
-<select name="Select1" class="select" id="select1">
-		                    <option value="choose a City">Choose a city</option>
-							<option value="Christchurch">Christchurch</option>
-							<option value="Hamilton">Hamilton</option>
-							<option value="Cambridge">Cambridge</option>
-							<option value="Rotorua">Rotorua</option>
-							<option value="Auckland">Auckland</option>
-							<option value="Wellington">Wellington</option>
-						</select></br>
-					</br>
-    <a>Enter Your Email</a></br>
-    <input id="email" type="text"  name="email" value="Email">
-</br>
-</br>
-<input type="submit" class="btn btn-default" name="submit" value="Submit">
-</br>
-</br>
 </div>
 <div class="div3">
 
@@ -118,7 +100,7 @@ function validate()
 
 	</div>
 <div class="div4">
-<h2 style="color:red;">Why should I donate blood?</h2>
+<h2 style="color:red;"><strong>Why should I donate blood?</strong></h2>
 	<p class="ht">It isn't every day you can do something to save someone's life - but that's exactly what you do every time you donate blood. Blood is a priceless gift - a lifesaver.
 
 Even the best trained medical personnel, using the most advanced equipment can become helpless in the event a patient needs blood.
@@ -167,8 +149,14 @@ It lets you:
     Join a very special group of volunteers.
 
 </p>
+</br>
+
 
 </div>
+<div class="div10">
+	<iframe width="860" height="515" src="https://www.youtube.com/embed/vsmEMek8Fac" frameborder="0" allowfullscreen></iframe>
+</div>
+
 </div>
 <footer class="f1"> 
 <ul>

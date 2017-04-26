@@ -11,6 +11,28 @@
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="div.css">
 
+<script language="javascript" type="text/javascript">
+
+function validate()
+{
+
+     if (document.getElementById("text").value=="")
+     {
+           alert("please select a city");
+           return false;
+           
+       }
+      if(document.getElementById("text2").value=="") 
+      {
+      
+             alert("please select a blood group");
+              return false;  
+                                  
+  }    
+               return true;          
+}
+
+</script>
   
 </head>
 
@@ -34,22 +56,22 @@
 </br>
 <div class="div7">
   <ul>
-  <form action="register1.php" method="post" class="form-horizontal">
+  <form action="register1.php" method="post" class="form-horizontal" onsubmit="javascript:return validate ();">
   <h1 style="text-align:center;"> <strong>Register For Free!</strong></h1>
   
-   &nbsp&nbsp <li> <label for="text">*First Name:</label>
-    <input type="text" name="text1"></li>
+   &nbsp&nbsp  <label >*First Name:</label>
+    <input type="text" name="text1" value="">
   </br>
    </br>
-   &nbsp&nbsp&nbsp<li><label for="text">*Last Name:</label>
-    <input type="text" name="text2"></li>
+   &nbsp&nbsp&nbsp<label >*Last Name:</label>
+    <input type="text" name="text2">
   </br>
    </br>
-  &nbsp&nbsp&nbsp <li> <label for="text">*Phone No:</label>
+  &nbsp&nbsp&nbsp  <label >*Phone No:</label>
     <input type="text" name="text3"></li>
   </br>
    </br>
-   <li><label for="select2">blood group:</label>
+   <label for="select2">blood group:</label>
     <select name="Select2" class="select" id="select2" >
               <option value="Choose a group">Choose a group</option>
               <option value="a">a</option>
@@ -68,12 +90,12 @@
             </br>
             </br>
      
-   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<li> <label for="email">*Email:</label>
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <label >*Email:</label>
     <input type="email" name="email"></li>
  </br>
   </br>
   
-    &nbsp&nbsp&nbsp&nbsp<li><label for="pwd">*Password:</label>
+    &nbsp&nbsp&nbsp&nbsp<label >*Password:</label>
     <input type="password" name="password" ></li>
   </br>
 </br>
@@ -112,10 +134,10 @@ If you have visited the dentist for a minor procedure you must wait 24 hours bef
 </div>
 <footer class="f1"> 
 <ul>
-<li><a href="index.php">Home  |</a></li>
-<li><a href="about.php">About Us  |</a></li>
-<li><a href="privacy.php">Privacy  |</a></li> 
-<li><a href="contact.php">Contact Us</a></li>
+<a href="index.php">Home  |</a></li>
+<a href="about.php">About Us  |</a></li>
+<a href="privacy.php">Privacy  |</a></li> 
+<a href="contact.php">Contact Us</a></li>
 
 </ul>
 </br>
