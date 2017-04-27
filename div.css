@@ -102,3 +102,11 @@
     background-image: url("image/bg.png")
 
   }
+  .div11{
+    width:67%;
+    margin: right;
+    float: left;
+    background-color:grey;
+    color: white; 
+    height: 400px;
+}

@@ -139,6 +139,7 @@ If you have visited the dentist for a minor procedure you must wait 24 hours bef
 <a href="privacy.php">Privacy  |</a></li> 
 <a href="contact.php">Contact Us  |</a></li>
 <li><a href="admin.php">Admin Login</a></li>
+
 </ul>
 </br>
 <p>This site is only created as demo for a class project. 
