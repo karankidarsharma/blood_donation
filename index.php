@@ -50,7 +50,7 @@ function validate()
   <a href="refer.php" class="btn ">REFER A FRIEND</a>
   <a href="profile.php" class="btn ">EDIT YOUR PROFILE</a>
   <a href="contact.php" class="btn ">CONTACT US</a>
-
+</div>
 </nav>
 </div>
 </br>

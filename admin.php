@@ -33,15 +33,16 @@
 </div>
 </br>
 <div class="div2">
-  <form method="post" action="admin1.php">
+  
   <h3> Admin Login</h3>
 </br>
+<form method="post" action="admin1.php">
     <label>Enter username:&nbsp</label>
-    <input type="text" name="test1" autofocus placeholder="username">
+    <input type="text" name="text1" autofocus placeholder="username">
   </br>
 </br>
   <label>Enter Password:&nbsp</label>
-    <input type="password" name="test1" autofocus placeholder="password">
+    <input type="password" name="password" autofocus placeholder="password">
   </br></br>
   <input type="submit" class="btn btn-default"  value="Login!">
   </form>
