@@ -1,13 +1,10 @@
-<?php session_start(); 
-
 <?php session_start();
 
 $u=$_REQUEST['text1'];
 $p=$_REQUEST['text2'];
 if ($u=="" || $p=="")
 {
-
-echo " Invalid username/password. <a herf=admin.php>please try Again</a>";
+  header('location:admin.php?success=3');
 }
 else
 {
@@ -33,11 +30,11 @@ if (!$con)
  {
  $_SESSION['suser']=$u;
  
- echo "Sucessfully Logged in. <a href=admin.php>Click Here to go to My Account</a>";
+   header('location:admin2.php?success=1');
  }
  else
 {
-echo "Invalid Username/Password. <a href=login.php>please try again</a>";
+header('location:admin.php?success=2');
 }
 
 

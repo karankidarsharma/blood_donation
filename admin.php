@@ -33,7 +33,7 @@
 </div>
 </br>
 <div class="div2">
-  
+
   <h3> Admin Login</h3>
 </br>
 <form action="admin1.php" method="post" >
@@ -46,6 +46,19 @@
   </br></br>
   <input type="submit" class="btn btn-default"  value="Login!">
   </form>
+  <?php
+  if(isset($_GET['success']) && $_GET['success'] == 2)
+      {
+        echo "<a>Wrong credentials</a>";
+      }
+      ?>
+
+      <?php
+  if(isset($_GET['success']) && $_GET['success'] == 3)
+      {
+        echo '<a class="t1">wrong username/password!</a>';
+      }
+      ?>
 </div>
 <div class="div11">
  <h1><strong>Post Donation Care</strong></h1>
