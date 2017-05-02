@@ -36,13 +36,13 @@
   
   <h3> Admin Login</h3>
 </br>
-<form method="post" action="admin1.php">
+<form action="admin1.php" method="post" >
     <label>Enter username:&nbsp</label>
     <input type="text" name="text1" autofocus placeholder="username">
   </br>
 </br>
   <label>Enter Password:&nbsp</label>
-    <input type="password" name="password" autofocus placeholder="password">
+    <input type="text" name="text2" autofocus placeholder="password">
   </br></br>
   <input type="submit" class="btn btn-default"  value="Login!">
   </form>
