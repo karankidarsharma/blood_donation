@@ -4,9 +4,9 @@
 	text-align: center;
 	float: center;
 	margin: auto;
-	
-    padding-bottom: 10px;
+	 padding-bottom: 10px;
     overflow: auto;
+    max-height: 90%
 
 
 }
