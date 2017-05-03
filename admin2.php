@@ -38,6 +38,13 @@ echo "<SCRIPT language='JavaScript'> window.location='admin.php'; </script>";
       }
       ?>
   </nav>
+  <body>
+<div class="12">
+</div>
+
+
+
+  </body>
 </div>
 <footer class="f1"> 
 <ul>
