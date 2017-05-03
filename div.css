@@ -1,5 +1,5 @@
 .div1 {
-	width:100%;
+	width:90%;
 	background-color:grey;
 	text-align: center;
 	float: center;
@@ -108,4 +108,8 @@
     background-color:grey;
     color: white; 
     height: 400px;
+}
+.div12{
+
+   width:30%;
 }

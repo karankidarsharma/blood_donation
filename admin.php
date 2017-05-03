@@ -19,14 +19,14 @@
 <h1>BLOOD DONATION WAIKATO</h1>
 
 </header></br>
-<div class="btn-group btn-group-justified">
+
 <nav> 
 
 <div class="btn-group btn-group-justified hover">
   <a href="index.php" class="btn ">HOME</a>
   <a href="register.php" class="btn ">REGISTER</a>
   <a href="refer.php" class="btn ">REFER A FRIEND</a>
-  <a href="profile.php" class="btn ">EDIT YOUR PROFILE</a>
+  <a href="profile.php" class="btn">EDIT YOUR PROFILE</a>
   <a href="contact.php" class="btn ">CONTACT US</a>
 
 </nav>
